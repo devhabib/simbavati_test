@@ -1,0 +1,752 @@
+/*==============Min width Media query===========*/
+@media (min-width: 768) {
+    #site-navigation .menu-items-wrapper {
+        display: block;
+    }
+    .footer-widget-menu {
+        display: none;
+    }
+    /*=====Modal style======*/
+    #main-modal .wp-block-wwx-tabs .wwx-title-item {
+        padding-top: 100px;
+        margin-top: -100px;
+    }
+    figure {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 40px;
+        margin-inline-end: 40px;
+    }
+    .wp-block-column:not(:first-child) {
+        margin-left: 2em;
+    }
+}
+
+@media (min-width: 1100px) {
+    /*=====Top Reasons section=====*/
+    .top-reasons__content-column:not(:nth-child(2)) .column:first-child {
+        margin-left: calc(50% - (1080px / 2));
+        max-width: calc(1080px / 2 - 1em);
+    }
+    .top-reasons__content-column:nth-child(2) .column:last-child {
+        margin-right: calc(50% - (1080px / 2));
+        max-width: calc(1080px / 2 - 1em);
+    }
+}
+
+/*==============Max width Media query===========*/
+@media (max-width: 350px) {
+    /*=====Header banner=====*/
+    .header-banner__title {
+        font-size: 50px !important;
+    }
+    /*=====Simbavati Collection section=====*/
+    .collection-slide {
+        min-width: 320px;
+    }
+    /*===footer===*/
+    .slick-dots {
+        padding-left: 10px;
+    }
+    .slick-dots li::before {
+        width: 18px;
+    }
+    .slick-dots li:first-child:before {
+        width: 5px !important;
+    }
+    .slick-dots li:last-child:after {
+        width: 5px !important;
+    }
+}
+
+@media (max-width: 400px) {
+    /*=====Fixed header =====*/
+    header.fixed-header .header-container {
+        padding: 0px 20px;
+    }
+    /*======Avialability banner======*/
+    .availabilty-banner .ab-block-button {
+        margin-left: -10px;
+    }
+    /*=====Rooms  section=====*/
+    .rooms .block-button h4 {
+        font-size: 24px;
+    }
+    .slider-tabs.alignfull {
+        margin-left: 0;
+        margin-right: 10px;
+        max-width: 100vw;
+        width: auto;
+        padding-right: 10px;
+    }
+    /*=====Gallery slider dots =====*/
+    .gallery-slider .slick-dots {
+        transform: translate(-30%, -500%) !important;
+    }
+    .rooms-slider .slick-dots {
+        padding-left: 0 !important;
+    }
+    /*======footer======*/
+    footer .site-info {
+        padding-bottom: 80px;
+    }
+    /*======Main Modal======*/
+    #main-modal .dropdown-option h4 {
+        font-size: 22px;
+        padding-right: 10px;
+    }
+}
+@media (max-width: 500px) {
+    .gallery-slider .slick-dots {
+        padding-left: 0px !important;
+    }
+    /*======Main Modal======*/
+    .pricing-popup-header h4 {
+        font-size: 24px !important;
+    }
+    .pricing-popup-header h4 > img {
+        width: 120px !important;
+    }
+    .pricing-popup-header figure img {
+        width: 20px;
+    }
+}
+
+@media (max-width: 640px) {
+    .gallery-slider .slick-dots {
+        margin-left: 100px !important;
+    }
+    .rooms-slider .slick-dots {
+        margin-left: 2% !important;
+        transform: translateY(-300%) !important;
+    }
+    /*======Footer======*/
+    .footer-newsletter__form-body .gridfield-width-half {
+        -ms-grid-column: span 12 !important;
+        grid-column: span 12 !important;
+    }
+}
+@media (max-width: 768px) {
+    /*===== Base Style =====*/
+    section .alignwide {
+        margin-left: 0px !important;
+        width: calc(100% + 0px) !important;
+        max-width: calc(100% + 0px) !important;
+    }
+    .inner-container-min {
+        padding: 0 20px;
+    }
+    .section .section-heading {
+        font-size: 46px !important;
+    }
+    /*======header======*/
+    .header-container {
+        padding: 20px 20px 0;
+    }
+    header .header-menu__toggle .screen-reader-text {
+        display: none;
+    }
+    .header-widgets .widget-menu-item > a::after {
+        display: none;
+    }
+    #widget-menu span {
+        display: none;
+    }
+    .header-banner {
+        height: 600px;
+    }
+    .header-banner__title {
+        font-size: 75px;
+        width: 100%;
+        text-align: center;
+    }
+    .header-banner__prev,
+    .header-banner__next {
+        width: 25px;
+        height: 25px;
+        top: 78%;
+    }
+    .header-banner__prev {
+        left: 25px;
+    }
+    .header-banner__next {
+        right: 0;
+    }
+    /*======Manu Navigation======*/
+
+    #site-navigation::before {
+        height: 90px;
+        margin-top: -90px;
+        background: #fff !important;
+    }
+    .main-navigation .main-nav > ul .menu-items-column {
+        width: 100% !important;
+        margin-top: 1px;
+        margin-bottom: 10px;
+    }
+    #site-navigation .main-nav li.contact-details {
+        order: -1;
+        margin: 20px -20px 20px -40px;
+        background-color: #f3f4f3 !important;
+        padding: 40px;
+        width: 100vw;
+        font-size: 18px;
+        line-height: 42px;
+        display: block;
+    }
+    #site-navigation .main-nav li.contact-details span {
+        display: block;
+        line-height: 30px;
+    }
+    .main-navigation .main-nav > ul .menu-items-column .menu-item {
+        margin-bottom: 0 !important;
+    }
+    .main-navigation .main-nav > ul .menu-items-column .spacer-item {
+        display: none !important;
+        height: 0 !important;
+    }
+    #site-navigation .menu-items-wrapper {
+        display: none;
+    }
+
+    #site-navigation .menu-items-column h3 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #site-navigation .menu-items-column h3::after {
+        content: "+";
+        display: block;
+        transition: all 0.5s;
+    }
+
+    #site-navigation .menu-items-column.active .menu-item-header::after {
+        content: "-";
+    }
+    /*======Header Widget Manu======*/
+    .header-widgets .widget-sub-menu {
+        width: 200px;
+        right: 1%;
+    }
+    /*======Avialability banner======*/
+    .availabilty-banner .inner-container-min {
+        padding: 0 20px;
+    }
+    .ab-block-button {
+        justify-content: center;
+    }
+    .ab-block-column:first-child {
+        display: none;
+    }
+    .ab-block-button .btn::after {
+        width: 45px;
+    }
+    /*======Menu Section======*/
+    .section-menu {
+        display: none;
+    }
+    /*======Overview=======*/
+    .overview.section {
+        padding-bottom: 50px;
+    }
+    .overview-content {
+        flex-direction: column;
+    }
+    .overview-content-column {
+        margin: 0 20px;
+    }
+    /*======Why we love it=======*/
+    .why-we-love-it.section {
+        padding-top: 50px;
+    }
+    .why-we-love-it {
+        background: #fff !important;
+    }
+    .love-it-content-column {
+        flex-basis: 100% !important;
+    }
+    .love-it-content-column p {
+        display: block;
+        max-width: 400px;
+        margin: 0 auto 60px;
+    }
+    /*======Rooms Section=======*/
+    .rooms-content-wrapper .room-column {
+        width: 100% !important;
+        flex-basis: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        flex-grow: 0;
+    }
+    .rooms-content-wrapper .contain-left {
+        padding: 20px;
+    }
+    .rooms-content-wrapper {
+        flex-direction: column-reverse;
+    }
+    .rooms-slider {
+        margin-left: -30px;
+    }
+    .counter-bg::before,
+    .rooms-slider-content svg,
+    .rooms-slider-content .slick-counter {
+        display: none !important;
+    }
+    /*======Rates Section=======*/
+    .rates-content-wrapper {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .rates-content-column {
+        flex-basis: 100% !important;
+        width: 100% !important;
+    }
+    .rates-right-content {
+        margin-bottom: 60px;
+        margin-left: 0 !important;
+    }
+    .rates-left-content {
+        margin-top: 80px;
+    }
+    .rate-left-block-info {
+        flex-direction: column;
+    }
+    .row-content-column {
+        flex-basis: 100%;
+        flex-grow: 0;
+    }
+    /*======Experiences=======*/
+    .experiences-section-content .row .experience-card {
+        max-width: 100% !important;
+        margin-right: 0;
+    }
+    /*======Gallery=======*/
+    .gallery.section {
+        padding-bottom: 0px !important;
+    }
+    .gallery-content {
+        margin-top: 0px;
+    }
+    .gallery-bottom-heading {
+        font-size: 60px !important;
+    }
+    .gallery-slider svg,
+    .gallery-slider .slick-counter,
+    .counter-bg-white-top-left::before {
+        display: none;
+    }
+    /*======Essential=======*/
+    .essentials.alignfull {
+        padding: 30px !important;
+    }
+    .essentials-body-wrapper {
+        flex-wrap: wrap !important;
+    }
+    .essentials-body-wrapper .column {
+        flex-basis: 100%;
+    }
+    .essentials-body-wrapper .column:not(:first-child) {
+        margin-left: 0;
+    }
+    /*======Top Reasons Section=======*/
+    .top-reasons__content-column .row {
+        flex-wrap: wrap !important;
+    }
+    .top-reasons__content-column .row .column {
+        flex-basis: 100% !important;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 15px 0px !important;
+    }
+    .top-reasons__content-column .top-reasons__content-img figure {
+        margin: 0 -20px;
+    }
+    .top-reasons__content-column:nth-child(2) .top-reasons__content-img figure {
+        margin: 0 -20px;
+    }
+    .top-reasons__content-column .row .column.order-1 {
+        order: 1 !important;
+    }
+    /*======Article Section=======*/
+    .articles-row .article-column {
+        min-width: 100% !important;
+        max-width: 100% !important;
+        flex-basis: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    /*======Simbavati Section=======*/
+
+    .filter-dropdown {
+        display: block;
+    }
+    .collection-slide {
+        width: 290px;
+    }
+    .simbavati-collection .block-button-group {
+        display: none;
+    }
+    .collection-slide {
+        width: 400px;
+    }
+    /*======Footer ======*/
+    .footer-newsletter__form-body {
+        grid-column-gap: 0px !important;
+        margin-bottom: 0 !important;
+    }
+    .footer-widgets__column {
+        flex-basis: 100% !important;
+        flex-grow: 0;
+        order: 1;
+        margin-left: 0 !important;
+    }
+    footer .site-info {
+        padding: 0;
+        padding-bottom: 100px;
+        font-size: 14px;
+    }
+    .footer-widget-menu {
+        display: none;
+    }
+
+    .footer-widget-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footer-widget-title::after {
+        content: "+";
+        display: block;
+        transition: all 0.5s;
+    }
+    .footer-widget-title.active::after {
+        content: "-";
+    }
+    /* // SLider dots styling */
+    .rooms-slider .slick-dots {
+        padding-top: 0;
+        margin-top: 0;
+        margin-left: 4.5%;
+        padding-left: 75px;
+        z-index: 3;
+    }
+    .gallery-slider .slick-dots {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+        z-index: 3;
+        background: transparent;
+        transform: translateY(-500%);
+        margin-left: 150px;
+        padding-left: 75px;
+    }
+    .rooms-slider .slick-dots li::before,
+    .gallery-slider .slick-dots li::before {
+        width: 0;
+        height: 0;
+    }
+    .rooms-slider .slick-dots li::after,
+    .gallery-slider .slick-dots li::after {
+        width: 0;
+        height: 0;
+    }
+    .rooms-slider .slick-dots li,
+    .gallery-slider .slick-dots li {
+        margin: 0 10px;
+    }
+    .rooms-slider .slick-dots li button,
+    .gallery-slider .slick-dots li button {
+        background: #ccc;
+    }
+    .rooms-slider .slick-dots li.slick-active button,
+    .gallery-slider .slick-dots li.slick-active button {
+        background: #fff;
+    }
+
+    .rooms-slide-img {
+        height: 300px;
+        max-width: 100%;
+    }
+    .rate-slick-track {
+        width: 1500px;
+    }
+    /*===main modal style====*/
+
+    #main-modal h2 {
+        font-size: 36px;
+    }
+    #main-modal h3 {
+        font-size: 28px;
+    }
+    #main-modal h4 {
+        font-size: 22px;
+        padding: 20px;
+    }
+
+    #main-modal .wwx-tabs-content-wrap .wp-block-columns {
+        flex-wrap: wrap;
+    }
+    #main-modal .wwx-tabs-content-wrap .wp-block-column {
+        flex-basis: 100%;
+        width: 100%;
+    }
+    #site-body .is-style-default > .wp-block-button__link::after {
+        width: 45px;
+    }
+    .pricing-popup-header .inner-container-min {
+        max-width: unset !important;
+        padding-right: 15px !important;
+    }
+    /*dropdown option style*/
+    #main-modal .dropdown-option {
+        display: block;
+    }
+    #main-modal .hide-on-mobile {
+        display: none;
+    }
+    #main-modal .wwx-tabs-title-list.show {
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        padding: 20px;
+        min-width: 480px;
+    }
+    #main-modal .wwx-tabs-title-list.show li a.active::after {
+        width: 0;
+        height: 0;
+        background: transparent;
+        border: none !important;
+    }
+    #main-modal .wwx-tabs-title-list.show li a span {
+        color: #777;
+        font-size: 22px;
+    }
+    #main-modal .wwx-tabs-title-list.show li a.active span {
+        color: #393636;
+    }
+    .modal-rate li a::before {
+        background: #393636;
+        margin-bottom: -5px;
+    }
+}
+
+@media (max-width: 868px) {
+    /*=====Why we love it section=====*/
+    .love-it-content-column {
+        flex-basis: 48%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    /*=====Articles section=====*/
+    .articles-row {
+        flex-wrap: wrap !important;
+    }
+    .articles-row .article-column {
+        min-width: 45%;
+        max-width: 45%;
+    }
+    /*=====Simbavait collection section=====*/
+    .collection-slide {
+        width: 350px;
+    }
+    /*=====Main modal=====*/
+    #main-modal .pricing-popup-header .check-avail {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    /*===== Base Style =====*/
+    .section-heading {
+        font-size: 46px;
+    }
+    .header-site-logo {
+        display: inline-block;
+        max-width: 180px;
+        min-width: 140px;
+    }
+    /*===== Experiences section =====*/
+    .experiences .section-heading {
+        font-size: 46px !important;
+    }
+    /*===== Gallery section =====*/
+    .gallery-bottom-heading {
+        font-size: 70px;
+    }
+    /*===== Simbavati Collection section =====*/
+    .sim-card-heading {
+        font-size: 33px !important;
+    }
+    .site-footer h2 {
+        font-size: 48px;
+    }
+    .collection-slide {
+        width: 330px;
+    }
+}
+
+@media (max-width: 1080px) {
+    /*=====Base Style=====*/
+    .alignwide {
+        margin-left: -15px !important;
+        width: calc(100% + 30px) !important;
+        max-width: calc(100% + 30px) !important;
+    }
+    .section-heading {
+        font-size: 48px !important;
+    }
+    .contain-left {
+        padding-left: 40px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    /*===== Header =====*/
+    header.fixed-header .header-container {
+        padding: 0px 30px !important;
+    }
+    #site-navigation {
+        background: none;
+    }
+    #site-navigation .main-nav .menu-item-header {
+        font-size: 38px;
+    }
+    .main-navigation .main-nav > ul {
+        padding-left: 40px !important;
+    }
+    /*===== Overview section =====*/
+    .overview .section-heading {
+        font-size: 48px !important;
+    }
+    /*===== Why we love it section =====*/
+    .love-it-content-title {
+        font-size: 20px;
+        line-height: 1.25;
+    }
+    /*===== Simbavati collection section =====*/
+    .simbavati-collection .block-button-group .btn h4 {
+        font-size: 24px !important;
+    }
+    .collection-slider svg {
+        display: none;
+    }
+    .collection-slide {
+        width: 345px;
+    }
+}
+
+@media (max-width: 1110px) {
+    /*=====Simbavati Collection section=====*/
+    .simbavati-collection .slider-tabs-links {
+        margin-left: 40px;
+    }
+    /*=====Rates section=====*/
+    .rates.alignfull {
+        margin-left: 0;
+    }
+    .rates-content-row.alignfull {
+        margin-left: 0;
+    }
+    .rates-content-column.left {
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: 1180px) {
+    .alignwide {
+        margin-left: -20px !important;
+        width: calc(100% + 40px) !important;
+        max-width: calc(100% + 40px) !important;
+    }
+    .essentials.alignfull {
+        padding-left: 60px;
+    }
+    /*=====Gallery section=====*/
+    .gallery-slide {
+        width: 100%;
+    }
+    .gallery-bottom-heading {
+        font-size: 85px;
+    }
+    .gallery.alignfull,
+    .gallery .alignfull {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    /*=====Essentials section=====*/
+    #essentials::after {
+        display: none;
+    }
+    /*=====Simbavati Collection section=====*/
+    .collection-slide {
+        width: 290px;
+    }
+    /*=====Modal style======*/
+    #main-modal h2 {
+        font-size: 46px;
+    }
+    #main-modal h3 {
+        font-size: 33px;
+    }
+    #main-modal h4 {
+        font-size: 30px;
+    }
+    #main-modal .check-avail a::after {
+        width: 50px;
+        margin-left: 10px;
+    }
+    #main-modal .wwx-tabs-content-wrap {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 1280px) {
+    /*=====Base Style=====*/
+    .alignwide {
+        margin-left: -30px !important;
+        width: calc(100% + 60px) !important;
+        max-width: calc(100% + 60px) !important;
+    }
+    /*=====Header Navigation menu left=====*/
+    .main-navigation .main-nav > ul {
+        padding-left: 200px;
+    }
+    /*=====Simbavati Collection section=====*/
+    .collection-slide {
+        width: 320px;
+    }
+}
+@media (max-width: 1250px) {
+    .collection-slider svg {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1380px) {
+    /*=====Base style=====*/
+    .alignwide {
+        margin-left: -40px;
+        width: calc(100% + 80px);
+        max-width: calc(100% + 80px);
+    }
+}
+
+@media (max-width: 1480px) {
+    /*=====Base style=====*/
+    .alignwide {
+        margin-left: -60px;
+        width: calc(100% + 120px);
+        max-width: calc(100% + 120px);
+    }
+    .section-heading {
+        font-size: 58px !important;
+    }
+    /*=====Simbavati Collection section=====*/
+    .simbavati-collection .block-button-group .btn h4 {
+        font-size: 30px;
+    }
+    .collection-slide .sim-card-img {
+        min-height: 450px !important;
+        max-height: 450px !important;
+    }
+}
